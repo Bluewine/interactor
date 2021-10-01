@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-
-__version__ = '0.1.2'
-
-# standard library imports
-
-# third party related imports
-
-# local library imports
-
-
 class Context(object):
 
     @classmethod
