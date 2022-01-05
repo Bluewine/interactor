@@ -6,7 +6,8 @@ class Context(object):
         return cls(**context)
 
     def __init__(self, **context):
-
+        if 'exception' not in context.keys():
+            context['exception'] = None
         _ = [setattr(self, key, context[key]) for key in context]
 
 
